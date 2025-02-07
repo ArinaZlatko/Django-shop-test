@@ -57,31 +57,30 @@ pip install django
 <ol>
     <li>Склонируйте репозиторий:
         <pre>
-            gh repo clone ArinaZlatko/lab-9-main
+    gh repo clone ArinaZlatko/lab-9-main
         </pre>
     </li>
     <li>Перейдите в каталог проекта:
         <pre>
-        cd Project
+    cd Project
         </pre>
     </li>
     <li>Выполните миграции:
         <pre>
-        python manage.py migrate
+    python manage.py migrate
         </pre>
     </li>
     <li>Запустите сервер разработки:
         <pre>
-        python manage.py runserver
+    python manage.py runserver
         </pre>
     </li>
     <li>Откройте в браузере:
         <pre>
-        http://127.0.0.1:8000/
+    http://127.0.0.1:8000/
         </pre>
     </li>
 </ol>
-
 <h2>Заключение</h2>
 <p><strong>Данный код</strong> является полноценным тестовым проектом, иллюстрирующим базовые концепции и функционал интернет-магазина на платформе Django. Этот проект может быть использован как основа для дальнейшего расширения и добавления дополнительных функций, таких как система пользователей и многое другое.</p>
 
